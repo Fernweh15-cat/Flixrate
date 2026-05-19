@@ -1,0 +1,8 @@
+{
+  "name": "FLIXRATE",
+  "description": "A premium cinematic movie review and discovery platform with high-contrast noir aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

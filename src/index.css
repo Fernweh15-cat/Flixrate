@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-surface: #141414;
+  --color-surface-high: #2f2f2f;
+  --color-primary-brand: #e50914;
+  --color-text-main: #ffffff;
+  --color-text-muted: #b3b3b3;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --spacing-margin-mobile: 1rem;
+  --spacing-margin-desktop: 3rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-main font-sans antialiased;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
